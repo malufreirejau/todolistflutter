@@ -7,9 +7,6 @@ import '../models/todo.dart';
 const todoListKey = 'todo_list';
 
 class TodoRepository {
-
-  TodoRepository() {
-
   late SharedPreferences sharedPreferences;
 
   Future<List<Todo>> getTodoList() async {
